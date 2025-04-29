@@ -31,25 +31,6 @@ IoU-based threshold optimization
 
 Optional training on augmented/generated images
 
-
-Run the Project
-
-python road_image_segmentation.py
-
-Directory Structure
-
-project/
-│
-├── road_image_segmentation.py     # Main Python script
-├── 1/
-│   ├── training/
-│   │   ├── images/
-│   │   ├── groundtruth/
-│   │   ├── images_generated/         # optional
-│   │   ├── groundtruth_generated/    # optional
-│   └── test_set_images/
-└── README.md
-
 TODO
 
 Add image/mask rotation as data augmentation
